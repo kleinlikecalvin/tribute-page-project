@@ -1,0 +1,155 @@
+#main {
+  background-color: #ffffff;
+  width: auto;
+  margin: 35px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  font-family: "BioRhyme Expanded";
+  min-width: 750px x 1334px;
+}
+#title {
+  background-color: #f03f37;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 0 auto;
+  padding: 20px;
+  color: #ffffff;
+  line-height: 50px;
+  font-size: calc(50px + 1.5vm);
+}
+#subtitle {
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000000;
+  line-height: 30px;
+  font-family: "Amatic SC";
+  font-size: 30px;
+  opacity: 0.8;
+}
+#img-div {
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+}
+#image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding: 2px;
+  width: 600px;
+  min-width: auto;
+  max-width: 80%;
+  border-radius: 4px;
+}
+#img-caption {
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  width: auto;
+  font-family: "Amatic SC";
+  font-size: 20px;
+}
+#wrap-practice {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+#tribute-container {
+  order: 1;
+  text-align: center;
+  margin: 15px;
+  border: 2px solid rgb(240, 63, 55);
+  border-radius: 4px;
+  width: 50%;
+}
+#tribute-head {
+  background-color: rgb(240, 63, 55);
+  margin: 0 auto;
+  font-family: "BioRhyme Expanded";
+  color: #ffffff;
+  padding: 2px;
+  font-size: calc(50px + 1.5vm);
+}
+#tribute-info {
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Barlow";
+  font-size: 18px;
+}
+#albums-list {
+  order: 2;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 0;
+  margin: 15px;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 18px;
+  border: 2px solid rgb(240, 63, 55);
+  border-radius: 4px;
+  text-decoration: none;
+  width: 50%;
+}
+#albums-head {
+  background-color: rgb(240, 63, 55);
+  margin: 0 auto;
+  font-family: "BioRhyme Expanded";
+  color: #ffffff;
+  padding: 2px;
+  font-size: calc(50px + 1.5vm);
+}
+#album-li {
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  cursor: pointer;
+  list-style: none;
+}
+#album {
+  text-decoration: none;
+  color: #000000;
+  width: auto;
+}
+#album:hover {
+  color: #f03f37;
+  width: auto;
+}
+#quote-container {
+  width: auto;
+  border: 2px solid rgb(240, 63, 55);
+  border-radius: 4px;
+  margin: 15px;
+  font-family: "Barlow";
+  font-size: 18px;
+}
+#quote-head {
+  background-color: rgb(240, 63, 55);
+  margin: 0 auto;
+  font-family: "BioRhyme Expanded";
+  color: #ffffff;
+  padding: 2px;
+  font-size: calc(50px + 1.5vm);
+}
+footer {
+  width: auto;
+  padding: 15px;
+  background-color: #000000;
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Amatic SC";
+  font-size: 18px;
+}
+#tribute-link {
+  width: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f03f37;
+  font-family: "BioRhyme Expanded";
+  font-size: 16px;
+}
+#tribute-link:hover {
+  width: auto;
+  color: #ffffff;
+}
